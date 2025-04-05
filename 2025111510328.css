@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Lilita+One&display=swap');
+body {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.section h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid #620c67;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2  {
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid #620c67;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #555;
+}
+
+p, li {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills span, .skills-2 span {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+}
+
+.section, .section-1, .section-2, .section-cursos, .section.skills, .section.skills-2 {
+    margin-bottom: 20px;
+}
+
+.container img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
